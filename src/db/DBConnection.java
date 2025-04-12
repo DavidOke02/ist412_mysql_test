@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class DBConnection {
     private static Connection connection;
     private static String user = "root";
-    private static String password = "java";
-    private static String url = "jdbc:mysql://localhost:3306/login_schema";
+    private static String password = "java"; //Replace with your SQL db password
+    private static String url = "jdbc:mysql://localhost:3306/login_schema"; //Make sure you make the schema in MySQL first
 
     public static Connection getConnection()
     {
